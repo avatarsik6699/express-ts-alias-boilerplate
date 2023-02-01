@@ -1,0 +1,1 @@
+Стартовый шаблон express + ts + aliases
