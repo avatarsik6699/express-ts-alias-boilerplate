@@ -1,11 +1,11 @@
 {
-  "name": "vkigbot",
+  "name": "nodejs-express-ts-template",
   "version": "1.0.0",
   "main": "app.js",
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "start:build": "tsc && ts-node ./dist/app.js",
+    "start:build": "tsc && ts-node -r tsconfig-paths/register ./dist/app.js",
     "start:dev": "nodemon"
   },
   "dependencies": {
